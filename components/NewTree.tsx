@@ -1,9 +1,9 @@
 import { useState } from "react";
 import TreeNameInput from "./TreeNameInput";
 import { Text } from "react-native";
-import { SubmitTreeButton } from "./SubmitTreeButton";
+import SubmitTreeButton from "./SubmitTreeButton";
 
-export function NewTree() {
+export default function NewTree() {
   const [text, setText] = useState("");
   return (
     <>

@@ -1,5 +1,5 @@
 import { Text, View } from "react-native";
-import { NewTree } from "./components/NewTree/NewTree";
+import NewTree from "./components/NewTree";
 
 export default function App() {
   return (
